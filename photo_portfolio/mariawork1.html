@@ -19,6 +19,7 @@
 	<script type="text/javascript">
 		<!--//--><![CDATA[//><!--
 			var images = new Array()
+      proxy = 'https://cors-anywhere.herokuapp.com/';
 			function preload() {
 				for (i = 0; i < preload.arguments.length; i++) {
 					images[i] = new Image()
@@ -26,11 +27,11 @@
 				}
 			}
 			preload(
-				"https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-1.jpg",
-				"https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-2.jpg",
-				"https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-3.jpg",
-        "https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-4.jpg",
-        "https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-5.jpg"
+				`${proxy}https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-1.jpg`,
+				`${proxy}https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-2.jpg`,
+				`${proxy}https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-3.jpg`,
+        `${proxy}https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-4.jpg`,
+        `${proxy}https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-5.jpg`
 			)
 		//--><!]]>
 	</script>
