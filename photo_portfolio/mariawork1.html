@@ -12,6 +12,31 @@
     <link type="text/css" href="global.css" rel="stylesheet">
     <link type="text/css" href="randostyle.css" rel="stylesheet">
     <script type="text/javascript" src="preload.js"></script>
+
+
+
+    <div class="hidden">
+	<script type="text/javascript">
+		<!--//--><![CDATA[//><!--
+			var images = new Array()
+			function preload() {
+				for (i = 0; i < preload.arguments.length; i++) {
+					images[i] = new Image()
+					images[i].src = preload.arguments[i]
+				}
+			}
+			preload(
+				"https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-1.jpg",
+				"https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-2.jpg",
+				"https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-3.jpg",
+        "https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-4.jpg",
+        "https://mariaeriksen1.github.io/mywebsite/photo_portfolio/mariaimages/ga-5.jpg"
+			)
+		//--><!]]>
+	</script>
+</div>
+
+
     <!-- <script src="position.js"></script> -->
 
     <!-- <script type="text/javascript" async="" src="ga.js"></script><script type="text/javascript" src="modernizr.min.js"></script> -->
