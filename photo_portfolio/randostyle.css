@@ -11,6 +11,12 @@ section span{
   cursor: grab;
 }
 
+#backarrow a {
+  font-size: 20pt;
+  padding-right: 95%;
+  z-index: 320;
+}
+
 #title-hisho:hover #new {
 content: 'triumphant/broken';
 /* transition: .2s ease-in-out; */
